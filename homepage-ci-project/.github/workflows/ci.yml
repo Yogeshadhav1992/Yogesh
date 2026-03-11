@@ -1,8 +1,9 @@
 name: website CI Pipeline
-on:
-push:
-hes:
-       -main
+
+  on:
+   push:
+      branches:
+         -main
 jobs:
   build:
 
